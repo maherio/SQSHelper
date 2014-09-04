@@ -1,0 +1,20 @@
+{
+    "name": "maherio/sqs-helper",
+    "description": "A small helper class to format your Amazon SQS queues and messages.",
+    "authors": [
+        {
+            "name": "Tony Maher",
+            "email": "amaher@alumni.nd.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "aws/aws-sdk-php": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SQSHelper": "src/"
+        }
+    }
+}
